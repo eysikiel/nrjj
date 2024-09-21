@@ -1,0 +1,123 @@
+h1 {text-align: center;}
+h1 {
+  color: gray;
+}
+p {
+  color: white;
+}
+ul {
+  color:white;
+}
+.list{
+	display: flex;
+	justify-content: space-evenly;
+	}
+
+.list div {
+	height: 500px;
+	width: 335px;
+	text-align: center;
+}
+ul {
+  text-align: left;
+}
+.one
+{
+ padding: 12px;
+ width: 350px
+ height 450px;
+ background: linear-gradient(90deg,
+	#FF0000 0%,
+	#FF0A17 5%,
+	#FF142E 10%,
+	#FF1F43 15%,
+	#FF2957 20%,
+	#FF336A 25%,
+	#FF3D7C 30%,
+	#FF478C 35%,
+	#FF529C 40%,
+	#FF5cAB 45%,
+	#FF66B8 50%,
+	#FF5cAB 55%,
+	#FF529C 60%,
+	#FF478C 65%,
+	#FF3D7C 70%,
+	#FF336A 75%,
+	#FF2957 80%,
+	#FF1F43 85%,
+	#FF142E 90%,
+	#FF0A17 95%,
+	#FF0000 100%);
+border-radius: 10px;
+background-size: 200% 200%;
+animation: anim 2s linear infinite;
+}
+.two
+{
+ padding: 12px;
+ width: 350px
+ height 450px;
+ background: linear-gradient(90deg,
+	#FF66B8 0%,
+	#FB5CBB 5%,
+	#F552BF 10%,
+	#EF48C4 15%,
+	#E83EC9 20%,
+	#DF35CE 25%,
+	#D62CD4 30%,
+	#CB25DB 35%,
+	#BE21E1 40%,
+	#B01EE8 45%,
+	#9F1FEF 50%,
+	#B01EE8 55%,
+	#BE21E1 60%,
+	#CB25DB 65%,
+	#D62CD4 70%,
+	#DF35CE 75%,
+	#E83EC9 80%,
+	#EF48C4 85%,
+	#F552BF 90%,
+	#FB5CBB 95%,
+	#FF66B8 100%);
+border-radius: 10px;
+background-size: 200% 200%;
+animation: anim 2s linear infinite;
+}
+.three
+{
+ padding: 12px;
+ width: 350px
+ height 450px;
+ background: linear-gradient(90deg,
+	#215173 0%,
+	#27617F 5%,
+	#307289 10%,
+	#3D8293 15%,
+	#4C939C 20%,
+	#5EA3A4 25%,
+	#71B4AC 30%,
+	#86C4B4 35%,
+	#9DD4BD 40%,
+	#B4E4C6 45%,
+	#CDF4D0 50%,
+	#B4E4C6 55%,
+	#9DD4BD 60%,
+	#86C4B4 65%,
+	#71B4AC 70%,
+	#5EA3A4 75%,
+	#4C939C 80%,
+	#3D8293 85%,
+	#307289 90%,
+	#27617F 95%,
+	#215173 100%);
+border-radius: 10px;
+background-size: 200% 200%;
+animation: anim 2s linear infinite;
+}
+@keyframes anim
+{
+ 100%
+ {
+	background-position-x:-200%;
+ }
+}
